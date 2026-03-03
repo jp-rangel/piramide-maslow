@@ -21,6 +21,14 @@
     .level{
         height: 55px;
         font-size: 0.75em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .level img {
+        margin:auto;
+        display: block;
     }
 
     #autorrealizacion{ width:160px; }
