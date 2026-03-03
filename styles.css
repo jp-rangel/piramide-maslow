@@ -1,3 +1,56 @@
+@media (max-width: 768px) {
+
+    body{
+        height: auto;
+        padding: 20px 10px;
+        align-items: flex-start;
+    }
+
+    .container{
+        flex-direction: column;
+        gap: 30px;
+        width: 100%;
+    }
+
+    .pyramid{
+        height: 350px;
+        width: 100%;
+        max-width: 320px;
+    }
+
+    .level{
+        height: 55px;
+        font-size: 0.75em;
+    }
+
+    #autorrealizacion{ width:160px; }
+    #reconocimiento{ width:200px; }
+    #afiliacion{ width:240px; }
+    #seguridad{ width:280px; }
+    #fisiologicas{ width:320px; }
+
+    .info{
+        width: 100%;
+        max-width: 320px;
+        min-height: auto;
+        padding: 15px;
+    }
+
+    .info h2{
+        font-size: 1.1em;
+    }
+
+    /* Ajuste de iconos */
+    .icon-autorrealizacion,
+    .icon-reconocimiento,
+    .icon-afiliacion,
+    .icon-seguridad,
+    .icon-fisio{
+        width: 40px;
+        height: 40px;
+    }
+}
+
 body{
     margin:0;
     font-family: Arial, Helvetica, sans-serif;
