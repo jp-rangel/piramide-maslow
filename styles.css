@@ -5,7 +5,7 @@ body{
     display:flex;
     justify-content:center;
     align-items:center;
-    height:100svh;
+    height:100vh;
     color:white;
 }
 
@@ -46,7 +46,7 @@ body{
     align-items:center;
     cursor:pointer;
     position:relative;
-    height: 400svh;
+    height: 500px;
     clip-path: polygon(50% 0, 0 100%, 100% 100%);
 }
 
@@ -83,15 +83,15 @@ body{
     opacity:0.4;
 }
 
-#autorrealizacion{ width:200svw; background:#ff6b6b;}
-#reconocimiento{ width:250svw; background:#feca57;}
-#afiliacion{ width:300svw; background:#1dd1a1;}
-#seguridad{ width:350svw; background:#54a0ff;}
-#fisiologicas{ width:400svw; background:#5f27cd;}
+#autorrealizacion{ width:200px; background:#ff6b6b;}
+#reconocimiento{ width:250px; background:#feca57;}
+#afiliacion{ width:300px; background:#1dd1a1;}
+#seguridad{ width:350px; background:#54a0ff;}
+#fisiologicas{ width:400px; background:#5f27cd;}
 
 .info{
-    width:350svw;
-    min-height:200svh;
+    width:350px;
+    min-height:200px;
     background:rgba(255,255,255,0.1);
     padding:20px;
     border-radius:15px;
