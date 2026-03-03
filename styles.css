@@ -24,7 +24,6 @@
         font-size: 0.75em;
         display: flex;
         align-items: center;
-        justify-content: center;
         margin-left: auto;
         margin-right: auto;
     }
@@ -51,7 +50,6 @@
         font-size: 1.1em;
     }
 
-    /* Ajuste de iconos */
     .icon-autorrealizacion,
     .icon-reconocimiento,
     .icon-afiliacion,
@@ -59,6 +57,8 @@
     .icon-fisio{
         width: 40px;
         height: 40px;
+        margin: auto;
+        align-self: center;
     }
 }
 
