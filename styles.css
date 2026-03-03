@@ -17,6 +17,7 @@
         width: 100%;
         max-width: 320px;
         align-items: center;
+        justify-content: center;
     }
 
     .level{
@@ -26,6 +27,7 @@
         align-items: center;
         margin-left: auto;
         margin-right: auto;
+        justify-content: center;
     }
 
     .level img {
